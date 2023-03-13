@@ -11,7 +11,7 @@ Follow these steps to install PyMOL v2.6:
 1. Install the latest version of Python (v3.11.x) for Windows from [here](http://www.python.org/downloads/). Make sure the option to add environment variables is selected or add the folder of python.exe to system PATH.
 2. Install required Python packages
 
-```bash
+```cmd
 python -m pip install numpy
 python -m pip install pmw
 python -m pip install pyqt5
@@ -19,8 +19,8 @@ python -m pip install pyqt5
 
 3. Download pre-compiled Open-Source PyMOL wheel files, compatible with Python 3.11 and Windows 64-bit, from the links below:
 
-- [pymol-launcher](https://github.com/LBC-LNBio/PyMOL4Win/releases/latest/download/pymol_launcher-2.1-cp37-cp37m-win_amd64.whl)
-- [pymol](https://github.com/LBC-LNBio/PyMOL4Win/releases/latest/download/pymol-2.4.0-cp37-cp37m-win_amd64.whl)
+- [pymol-launcher](https://github.com/LBC-LNBio/PyMOL4Win/releases/latest/download/pymol_launcher-2.5-cp311-cp311-win_amd64.whl)
+- [pymol](https://github.com/LBC-LNBio/PyMOL4Win/releases/latest/download/pymol-2.6.0a0-cp311-cp311-win_amd64.whl)
 
 _Note_: You can check Python version on anaconda by typing `python --version`.
 
@@ -28,7 +28,7 @@ If you are using a different Python version or Windows 32-bits, please there are
 
 The filename structure is the following:
 
-```bash
+```cmd
 pymol‑2.6.0a0‑cp311‑cp311‑win_amd64.whl
          \         \          \
           \         \          \___ for 64 bit Windows
@@ -37,3 +37,36 @@ pymol‑2.6.0a0‑cp311‑cp311‑win_amd64.whl
              \
               \____________________ PyMOL version 2.6.0a0
 ```
+
+4. Install wheel files
+
+In the CMD window (not PowerShell!), switch to download directory (`C:\Users\<Your Username>\Downloads`):
+
+```cmd
+cd Downloads
+```
+
+Then, install `pymol_launcher-2.5-cp311-cp311-win_amd64.whl` by typing:
+
+```cmd
+python -m pip install --no-index --find-links="%CD%" pymol_launcher-2.5-cp311-cp311-win_amd64.whl
+```
+
+Finally, to install `pymol-2.6.0a0-cp311-cp311-win_amd64.whl`, run:
+
+```cmd
+pip install --upgrade --no-deps pymol-2.6.0a0-cp311-cp311-win_amd64.whl
+```
+
+_Note_: If you downloaded different files in **Step 4**, replace `pymol_launcher-2.5-cp311-cp311-win_amd64.whl` and `pymol-2.6.0a0-cp311-cp311-win_amd64.whl` by the downloaded wheel files.
+
+5. Launch PyMOL v2.6
+
+In the CMD window (not PowerShell!), run:
+
+```cmd
+where.exe pymol
+pymol
+```
+
+Then, PyMOL v2.6 will be launched and ready to go.
