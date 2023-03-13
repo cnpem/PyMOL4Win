@@ -1,6 +1,6 @@
 # Open Source PyMOL for Windows
 
-Open source PyMOL is available free of charge. A pre-compiled open source PyMOL is available free from [[Christoph Gohlke of the Laboratory for Fluorescence Dynamics, University of California, Irvine](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pymol)](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pymol).
+Open source PyMOL is available free of charge. A pre-compiled open source PyMOL is available free from [Christoph Gohlke of the Laboratory for Fluorescence Dynamics, University of California, Irvine](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pymol).
 
 This repository provides a method to install PyMOL v2.6 on Windows. If necessary, a portuguese version of this guide is available [here](https://github.com/LBC-LNBio/PyMOL4Win/blob/main/README_PT.md).
 
@@ -28,13 +28,12 @@ If you are using a different Python version or Windows 32-bits, please there are
 
 The filename structure is the following:
 
-
 ```bash
 pymol‑2.6.0a0‑cp311‑cp311‑win_amd64.whl
          \         \          \
-	  \         \          \___ for 64 bit Windows
-	   \         \
-            \         \____________ for Python 3.7.x
+          \         \          \___ for 64 bit Windows
+           \         \
+            \         \____________ for Python 3.11.x
              \
               \____________________ PyMOL version 2.6.0a0
 ```
