@@ -1,0 +1,36 @@
+name: Testing PyMOL in macOS
+
+on:
+    push:
+        branches: [main]
+    release:
+        types: [created]
+
+jobs:
+    install-and-test:
+        runs-on: macos-latest
+        steps:
+            - uses: actions/checkout@v3
+
+            - name: Set up Python
+              uses: actions/setup-python@v4
+              with:
+                  python-version: 3.11
+
+            - name: Install dependencies
+              run: |
+                  python -m pip install numpy
+                  python -m pip install pmw
+                  python -m pip install pyqt5
+
+            - name: Install pymol
+              run: |
+                  cd whl
+                  python -m pip install --no-index --find-links="%CD%" pymol_launcher-2.5-cp311-cp311-win_amd64.whl
+                  pip install --upgrade --no-deps pymol-2.6.0a0-cp311-cp311-win_amd64.whl
+                  where.exe pymol
+
+            - name: Launch PyMOL
+              run: |
+                  pymol -c
+                  pymol --version
