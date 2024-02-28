@@ -10,7 +10,7 @@ Siga estes passos para instalar o PyMOL v2.6:
 
 1. Instale a versão mais recente do Python (v3.12.x) para Windows a partir [aqui](http://www.python.org/downloads/).
 
-_NOTE_: Certifique-se de que a opção para adicionar variáveis de ambiente esteja selecionada ou adicione a pasta do python.exe ao PATH do sistema.
+_Observação_: Certifique-se de que a opção para adicionar variáveis de ambiente esteja selecionada ou adicione a pasta do python.exe ao PATH do sistema.
 
 2. Instale os pacotes Python necessários
 
