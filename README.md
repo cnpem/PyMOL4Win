@@ -24,7 +24,7 @@ python -m pip install pyqt5
 
 _Note_: You can check Python version on anaconda by typing `python --version`.
 
-If you are using a different Python version or Windows 32-bits, please there are other pre-compiled versions [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pymol).
+If you are using a different Python version or Windows 32-bits, please there are other pre-compiled versions [here](https://github.com/cgohlke/pymol-open-source-wheels/releases).
 
 The filename structure is the following:
 
