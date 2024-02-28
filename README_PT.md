@@ -22,7 +22,7 @@ python -m pip install pyqt5
 
 3. Baixe arquivos "wheel" de PyMOL de código aberto pré-compilados, compatíveis com Python 3.12 e Windows 64-bit, pelos links abaixo:
 
-* [pymol-launcher](https://github.com/LBC-LNBio/PyMOL4Win/releases/latest/download/pymol_launcher-2.5-cp312-cp312-win_amd64.whl)
+* [pymol-launcher](https://github.com/LBC-LNBio/PyMOL4Win/releases/latest/download/pymol_launcher-2.6-cp312-cp312-win_amd64.whl)
 * [pymol](https://github.com/LBC-LNBio/PyMOL4Win/releases/latest/download/pymol-2.6.0a0-cp312-cp312-win_amd64.whl)
 
 *Observação* : Você pode verificar a versão do Python no anaconda digitando `python --version`.
