@@ -58,7 +58,7 @@ python -m pip install --no-index --find-links="%CD%" pymol_launcher-2.6-cp312-cp
 Finally, to install `pymol-2.6.0a0-cp312-cp312-win_amd64.whl`, run:
 
 ```cmd
-pip install --upgrade --no-deps pymol-2.6.0a0-cp312-cp312-win_amd64.whl
+python -m pip install --upgrade --no-deps pymol-2.6.0a0-cp312-cp312-win_amd64.whl
 ```
 
 _Note_: If you downloaded different files in **Step 4**, replace `pymol_launcher-2.6-cp312-cp312-win_amd64.whl` and `pymol-2.6.0a0-cp312-cp312-win_amd64.whl` by the downloaded wheel files.
