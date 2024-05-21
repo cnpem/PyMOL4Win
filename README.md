@@ -2,7 +2,7 @@
 
 Open source PyMOL is available free of charge. A pre-compiled open source PyMOL is available free from [Christoph Gohlke](https://www.cgohlke.com/) of the Department of Biomedical Engineering, University of California, Irvine.
 
-This repository provides a method to install PyMOL v2.6 on Windows. If necessary, a portuguese version of this guide is available [here](https://github.com/LBC-LNBio/PyMOL4Win/blob/main/README_PT.md).
+This repository provides a method to install PyMOL v2.6 on Windows. If necessary, a portuguese version of this guide is available [here](https://github.com/cnpem/PyMOL4Win/blob/main/README_PT.md).
 
 ## Download & Installation
 
@@ -22,8 +22,8 @@ python -m pip install pyqt5
 
 3. Download pre-compiled Open-Source PyMOL wheel files, compatible with Python 3.12 and Windows 64-bit, from the links below:
 
-- [pymol-launcher](https://github.com/LBC-LNBio/PyMOL4Win/releases/latest/download/pymol_launcher-2.6-cp312-cp312-win_amd64.whl)
-- [pymol](https://github.com/LBC-LNBio/PyMOL4Win/releases/latest/download/pymol-2.6.0a0-cp312-cp312-win_amd64.whl)
+- [pymol-launcher](https://github.com/cnpem/PyMOL4Win/releases/latest/download/pymol_launcher-2.6-cp312-cp312-win_amd64.whl)
+- [pymol](https://github.com/cnpem/PyMOL4Win/releases/latest/download/pymol-2.6.0a0-cp312-cp312-win_amd64.whl)
 
 _Note_: You can check Python version on anaconda by typing `python --version`.
 
