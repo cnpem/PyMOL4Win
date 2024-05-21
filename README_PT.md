@@ -2,7 +2,7 @@
 
 O PyMOL de código aberto está disponível gratuitamente. Uma versão pré-compilada de código aberto do PyMOL está disponível gratuitamente em [Christoph Gohlke](https://www.cgohlke.com/) do Departamento de Engenharia Biomédica, Universidade da Califórnia, Irvine.
 
-Este repositório fornece um método para instalar o PyMOL v2.6 no Windows. Se necessário, uma versão em inglês deste guia está disponível [aqui](https://github.com/LBC-LNBio/PyMOL4Win/blob/main/README.md).
+Este repositório fornece um método para instalar o PyMOL v2.6 no Windows. Se necessário, uma versão em inglês deste guia está disponível [aqui](https://github.com/cnpem/PyMOL4Win/blob/main/README.md).
 
 ## Download e Instalação
 
@@ -22,8 +22,8 @@ python -m pip install pyqt5
 
 3. Baixe arquivos "wheel" de PyMOL de código aberto pré-compilados, compatíveis com Python 3.12 e Windows 64-bit, pelos links abaixo:
 
-* [pymol-launcher](https://github.com/LBC-LNBio/PyMOL4Win/releases/latest/download/pymol_launcher-2.6-cp312-cp312-win_amd64.whl)
-* [pymol](https://github.com/LBC-LNBio/PyMOL4Win/releases/latest/download/pymol-2.6.0a0-cp312-cp312-win_amd64.whl)
+* [pymol-launcher](https://github.com/cnpem/PyMOL4Win/releases/latest/download/pymol_launcher-2.6-cp312-cp312-win_amd64.whl)
+* [pymol](https://github.com/cnpem/PyMOL4Win/releases/latest/download/pymol-2.6.0a0-cp312-cp312-win_amd64.whl)
 
 *Observação* : Você pode verificar a versão do Python no anaconda digitando `python --version`.
 
