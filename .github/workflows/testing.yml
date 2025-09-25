@@ -11,12 +11,12 @@ jobs:
     install-and-test:
         runs-on: windows-latest
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v5
 
             - name: Set up Python
               uses: actions/setup-python@v5
               with:
-                  python-version: 3.12
+                  python-version: 3.13
 
             - name: Install dependencies
               run: |
@@ -27,8 +27,8 @@ jobs:
             - name: Install pymol
               run: |
                   cd whl
-                  python -m pip install --no-index --find-links="%CD%" pymol_launcher-2.6-cp312-cp312-win_amd64.whl
-                  pip install --upgrade --no-deps pymol-2.6.0a0-cp312-cp312-win_amd64.whl
+                  python -m pip install --no-index --find-links="%CD%" pymol_launcher-3.2.0cp313-cp313-win_amd64.whl
+                  pip install --upgrade --no-deps pymol-3.2.0a0-cp313-cp313-win_amd64.whl
                   where.exe pymol
 
             - name: Launch PyMOL
