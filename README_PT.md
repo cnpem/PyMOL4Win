@@ -49,10 +49,10 @@ No Prompt de Comando (não no PowerShell!), navegue até a pasta onde os arquivo
 cd Downloads
 ```
 
-Em seguida, instale o `pymol_launcher-3.2.0cp313-cp313-win_amd64.whl` digitando:
+Em seguida, instale o `pymol_launcher-3.2.0a0-cp313-cp313-win_amd64.whl` digitando:
 
 ```cmd
-python -m pip install --no-index --find-links="%CD%" pymol_launcher-3.2.0cp313-cp313-win_amd64.whl
+python -m pip install --no-index --find-links="%CD%" pymol_launcher-3.2.0a0-cp313-cp313-win_amd64.whl
 ```
 
 Depois, instale o `pymol-3.2.0a0-cp313-cp313-win_amd64.whl` com:
